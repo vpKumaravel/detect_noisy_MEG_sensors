@@ -31,7 +31,7 @@ For MEG datasets, there is no systematic validation conducted. I hope this repos
 |-----|----------------------------------------|-----------------------------------------------------------|
 | **Filter**                              | Applies a low pass filter at 40 Hz                        | Requires band-pass filter (commonly between 1-40 Hz)    |
 | **Hyperparameters**                     | None                                                   | a) Number of neighbors<br>b) LOF threshold                |
-| **Execution Time**                      | TBD                                                   | TBD                                                       |
+| **Execution Time**                      | 162.29768228530884 s                                                  | 7.4986419677734375 s                       |
 | **Methodology**                         | Utilizes predefined signal processing techniques and statistical modeling to identify noisy sensors. | Anomaly detection based on local density deviation. Requires parameter tuning and preprocessing. |
 | **Sensitivity to Noise**                | Designed to handle typical noise and artifacts in MEG data. | Designed to identify sensors that consistently captured motion or jump artifacts. |
 | **Flexibility**                         | Less flexible, reliant on specific filter settings.       | More flexible, allowing for adjustments based on data characteristics (by legitimately tuning the hyperparameters) |
