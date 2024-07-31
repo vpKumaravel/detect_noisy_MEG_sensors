@@ -10,6 +10,11 @@ MNE-python based MEG bad sensors/channels detection
 ## Dataset
 Download dataset from [here](https://osf.io/mvug7).
 
+For the run1, the following is the ground truth (manually annotated by authors). For other runs, please refer to the excel file inside the `data` folder.
+
+<img width="86" alt="image" src="https://github.com/user-attachments/assets/2cbc81fc-7696-43ff-b1b5-b8fca3df6c25">
+
+
 ## Code
 Run `compareLOFvsMaxwell.py`
 
