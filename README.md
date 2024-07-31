@@ -25,6 +25,27 @@ The LOF algorithm is originally designed to detect bad sensors in Neonatal EEG d
 
 For MEG datasets, there is no systematic validation conducted. I hope this repository using a sample open source dataset demonstrates the feasibility.
 
+## Console Output
+
+**Maxwell Method**
+```
+Static bad channels:  ['MEG2241']
+Static flat channels: []
+[done]
+Elapsed time: 162.29768228530884 seconds
+Maxwell - Bad channels identified automatically: ['MEG2241']
+Maxwell - Flat channels identified automatically: []
+```
+
+**Local Outlier Factor (LOF) Method**
+```
+LOF: Detected bad channel(s): ['MEG0223', 'MEG2432', 'MEG2443', 'MEG2513']
+Elapsed time: 7.4986419677734375 seconds
+LOF: Marking channel MEG0223 as bad with a LOF score of -1.4420097344785427
+LOF: Marking channel MEG2432 as bad with a LOF score of -1.4533940514459451
+LOF: Marking channel MEG2443 as bad with a LOF score of -1.5501051894957765
+```
+
 ## Maxwell vs LOF
 
 | #   | Maxwell                                | Local Outlier Factor (LOF)                               |
